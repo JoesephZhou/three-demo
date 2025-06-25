@@ -108,7 +108,7 @@ let model;
 
 // using GLTFLoader to add customized model
 const loader = new GLTFLoader();
-loader.load("/model/test_2.glb", (gltf) => {
+loader.load("model/test_2.glb", (gltf) => {
   model = gltf.scene;
   scene.add(model);
 
