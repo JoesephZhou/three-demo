@@ -1,0 +1,20 @@
+{
+  "name": "three-demo",           
+  "private": true,               
+
+  "scripts": {
+    "dev":     "vite --host",
+    "build":   "vite build",
+    "preview": "vite preview --host"
+  },
+
+  "dependencies": {
+    "three": "^0.177.0",
+    "lil-gui": "^0.20.0",
+    "stats.js": "^0.17.0"
+  },
+
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
